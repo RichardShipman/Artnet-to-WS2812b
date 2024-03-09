@@ -14,15 +14,15 @@ You will need to set the correct broadcast IP address in the code for your netwo
 usage: artnet.py [-h] [-c] [-b BRIGHTNESS] [-u UNIVERSE] [-l LEDS] [-p PIN] [-n NUMPERUNI]
 
 options:
-  -h, --help            show this help message and exit
-  -c, --clear           clear the display on exit
-  -b BRIGHTNESS, --brightness BRIGHTNESS
+-  -h, --help            show this help message and exit
+-  -c, --clear           clear the display on exit
+-  -b BRIGHTNESS, --brightness BRIGHTNESS
                         set the brightness of the display - defaults to 32
-  -u UNIVERSE, --universe UNIVERSE
+-  -u UNIVERSE, --universe UNIVERSE
                         start the strip at this defined universe number - defaults to 0
-  -l LEDS, --leds LEDS  the number of RGB LEDs to be controlled - defaults to 256
-  -p PIN, --pin PIN     the pin for this strip of LEDs - defaults to 18
-  -n NUMPERUNI, --numperuni NUMPERUNI
+-  -l LEDS, --leds LEDS  the number of RGB LEDs to be controlled - defaults to 256
+-  -p PIN, --pin PIN     the pin for this strip of LEDs - defaults to 18
+-  -n NUMPERUNI, --numperuni NUMPERUNI
                         the number of LEDs per universe - defaults to 168
 
 The number of LEDs per universe will be defined by how your DMX controller allocates the LEDs in the Matrix
