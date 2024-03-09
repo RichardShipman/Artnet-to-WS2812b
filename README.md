@@ -1,6 +1,7 @@
-python program to recieve DMX over Artnet
+# python program to recieve DMX over Artnet
 
 Written to run on Raspberry Pi.
+
 You will need to set the correct broadcast IP address in the code for your network! Line 24 of the file.
 
 1. Connect a strip/matrix of WS2812b multicolour LEDs to a pin on the Pi.
